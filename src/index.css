@@ -32,6 +32,17 @@ ol, ul {
   width: 34px;
 }
 
+.back_button {
+  height: 25px;
+  width: 50px;
+  float:right
+}
+.container {
+  position:relative;
+  margin: 100px;
+  width:160px;
+}
+
 .square:focus {
   outline: none;
 }

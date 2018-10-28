@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+</body>
+
+<Script>
+class Node {
+    constructor(head, tail, squares) {
+      this._head = head;
+      this._tail = tail;
+      this._squares = squares;
+    }
+    get head() {
+      return this._head;
+    }
+    get tail() {
+      return this._tail;
+    }
+    get squares() {
+      return this._squares;
+    }
+    set head(new_head) {
+        this._head = new_head; 
+    }
+    set tail(new_tail) {
+        this._tail = new_tail; 
+    }
+
+  }
+  
+node1 = new Node(null,null,1)
+node2 = new Node(null,null,2)
+node3 = new Node (head = node1, tail = node2, 3)
+ 
+console.log(node3.head.squares)
+</Script>
+</html> 
+  
